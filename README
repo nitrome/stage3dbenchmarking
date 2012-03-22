@@ -1,0 +1,27 @@
+This repo is a series of benchmarking tests for different rendering methods in Flash on a desktop PC and on iOS.
+
+The purpose was to build worst-case-scenarios for each of the different rendering techniques as well as test claims of the speed of Stage3D.
+
+Blitting (BitmapData.copyPixels), MovieClips, Starling and ND2D were tested on the following machines:
+
+Dell Precision T3400
+Intel(R) Core(TM)2 Duo CPU
+E8400 @3.00GHz
+2.99GHz, 2.00GB of RAM
+NVIDIA Quadro NVS 290
+
+And on an iPod 3G
+
+The Flash files are all CS5.5
+
+Flash Player 11.2 support was added to Flash CS5.5 using the tutorial here:
+
+http://blogs.adobe.com/rgalvan/2011/11/adding-fp11-support-to-flash-pro-cs5-and-cs5-5.html
+
+Air3.2 was overlaid on to Flash CS5.5 using the tutorial here:
+
+http://blog.michaeljbowen.com/?p=127
+
+There still remains testing to be done on other devices as well as testing Stage3D without the use of a framework designed to generalise the task for those new to Stage3D.
+
+Please test the code for yourself and do not settle upon my own results as verbatim, they may after scrutiny be as valid as faster-than-light-neutrinos.
